@@ -1,0 +1,149 @@
+#include <WinResrc.h>
+
+1 VERSIONINFO
+FILEVERSION     1,0,2,0
+PRODUCTVERSION  1,0,2,0
+FILEOS          VOS_NT_WINDOWS32
+FILETYPE        VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080404B0"  // Chinese (PRC) Unicode
+    BEGIN
+      VALUE "LegalCopyright",   "Copyright (C) 2026 Akai"
+      VALUE "ProductName",      "MinesweeperPlus_x86_zh"
+      VALUE "ProductVersion",   "1.0.2.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0804, 1200  // Chinese (PRC)
+  END
+END
+
+// 位图资源定义
+#define ICON_MINE                101
+#define ICON_MINE_16             102
+
+#define IDB_CELL100_0            120
+#define IDB_CELL100_1            121
+#define IDB_CELL100_2            122
+#define IDB_CELL100_3            123
+#define IDB_CELL100_4            124
+#define IDB_CELL100_5            125
+#define IDB_CELL100_6            126
+#define IDB_CELL100_7            127
+#define IDB_CELL100_8            128
+#define IDB_CELL100_UNREVEALED   129
+#define IDB_CELL100_FLAG         130
+#define IDB_CELL100_MINE         131
+#define IDB_CELL100_MINE_RED     132
+#define IDB_CELL100_MINE_WRONG   133
+#define IDB_FACE100_PRESSED      140
+#define IDB_FACE100_COOL         141
+#define IDB_FACE100_DEAD         142
+#define IDB_FACE100_OH           143
+#define IDB_FACE100_NORMAL       144
+
+#define IDB_CELL150_0            150
+#define IDB_CELL150_1            151
+#define IDB_CELL150_2            152
+#define IDB_CELL150_3            153
+#define IDB_CELL150_4            154
+#define IDB_CELL150_5            155
+#define IDB_CELL150_6            156
+#define IDB_CELL150_7            157
+#define IDB_CELL150_8            158
+#define IDB_CELL150_UNREVEALED   159
+#define IDB_CELL150_FLAG         160
+#define IDB_CELL150_MINE         161
+#define IDB_CELL150_MINE_RED     162
+#define IDB_CELL150_MINE_WRONG   163
+#define IDB_FACE150_PRESSED      170
+#define IDB_FACE150_COOL         171
+#define IDB_FACE150_DEAD         172
+#define IDB_FACE150_OH           173
+#define IDB_FACE150_NORMAL       174
+
+#define IDB_CELL200_0            180
+#define IDB_CELL200_1            181
+#define IDB_CELL200_2            182
+#define IDB_CELL200_3            183
+#define IDB_CELL200_4            184
+#define IDB_CELL200_5            185
+#define IDB_CELL200_6            186
+#define IDB_CELL200_7            187
+#define IDB_CELL200_8            188
+#define IDB_CELL200_UNREVEALED   189
+#define IDB_CELL200_FLAG         190
+#define IDB_CELL200_MINE         191
+#define IDB_CELL200_MINE_RED     192
+#define IDB_CELL200_MINE_WRONG   193
+#define IDB_FACE200_PRESSED      200
+#define IDB_FACE200_COOL         201
+#define IDB_FACE200_DEAD         202
+#define IDB_FACE200_OH           203
+#define IDB_FACE200_NORMAL       204
+
+ICON_MINE ICON                   "./res/icon/mine.ico"
+ICON_MINE_16 ICON                "./res/icon/mine_16.ico"
+
+IDB_CELL100_0 BITMAP             "./res/100/cell100_0.bmp"
+IDB_CELL100_1 BITMAP             "./res/100/cell100_1.bmp"
+IDB_CELL100_2 BITMAP             "./res/100/cell100_2.bmp"
+IDB_CELL100_3 BITMAP             "./res/100/cell100_3.bmp"
+IDB_CELL100_4 BITMAP             "./res/100/cell100_4.bmp"
+IDB_CELL100_5 BITMAP             "./res/100/cell100_5.bmp"
+IDB_CELL100_6 BITMAP             "./res/100/cell100_6.bmp"
+IDB_CELL100_7 BITMAP             "./res/100/cell100_7.bmp"
+IDB_CELL100_8 BITMAP             "./res/100/cell100_8.bmp"
+IDB_CELL100_UNREVEALED BITMAP    "./res/100/cell100_unrevealed.bmp"
+IDB_CELL100_FLAG BITMAP          "./res/100/cell100_flag.bmp"
+IDB_CELL100_MINE BITMAP          "./res/100/cell100_mine.bmp"
+IDB_CELL100_MINE_RED BITMAP      "./res/100/cell100_mine_red.bmp"
+IDB_CELL100_MINE_WRONG BITMAP    "./res/100/cell100_mine_wrong.bmp"
+IDB_FACE100_PRESSED BITMAP       "./res/100/face100_pressed.bmp"
+IDB_FACE100_COOL BITMAP          "./res/100/face100_cool.bmp"
+IDB_FACE100_DEAD BITMAP          "./res/100/face100_dead.bmp"
+IDB_FACE100_OH BITMAP            "./res/100/face100_oh.bmp"
+IDB_FACE100_NORMAL BITMAP        "./res/100/face100_normal.bmp"
+
+IDB_CELL150_0 BITMAP             "./res/150/cell150_0.bmp"
+IDB_CELL150_1 BITMAP             "./res/150/cell150_1.bmp"
+IDB_CELL150_2 BITMAP             "./res/150/cell150_2.bmp"
+IDB_CELL150_3 BITMAP             "./res/150/cell150_3.bmp"
+IDB_CELL150_4 BITMAP             "./res/150/cell150_4.bmp"
+IDB_CELL150_5 BITMAP             "./res/150/cell150_5.bmp"
+IDB_CELL150_6 BITMAP             "./res/150/cell150_6.bmp"
+IDB_CELL150_7 BITMAP             "./res/150/cell150_7.bmp"
+IDB_CELL150_8 BITMAP             "./res/150/cell150_8.bmp"
+IDB_CELL150_UNREVEALED BITMAP    "./res/150/cell150_unrevealed.bmp"
+IDB_CELL150_FLAG BITMAP          "./res/150/cell150_flag.bmp"
+IDB_CELL150_MINE BITMAP          "./res/150/cell150_mine.bmp"
+IDB_CELL150_MINE_RED BITMAP      "./res/150/cell150_mine_red.bmp"
+IDB_CELL150_MINE_WRONG BITMAP    "./res/150/cell150_mine_wrong.bmp"
+IDB_FACE150_PRESSED BITMAP       "./res/150/face150_pressed.bmp"
+IDB_FACE150_COOL BITMAP          "./res/150/face150_cool.bmp"
+IDB_FACE150_DEAD BITMAP          "./res/150/face150_dead.bmp"
+IDB_FACE150_OH BITMAP            "./res/150/face150_oh.bmp"
+IDB_FACE150_NORMAL BITMAP        "./res/150/face150_normal.bmp"
+
+IDB_CELL200_0 BITMAP             "./res/200/cell200_0.bmp"
+IDB_CELL200_1 BITMAP             "./res/200/cell200_1.bmp"
+IDB_CELL200_2 BITMAP             "./res/200/cell200_2.bmp"
+IDB_CELL200_3 BITMAP             "./res/200/cell200_3.bmp"
+IDB_CELL200_4 BITMAP             "./res/200/cell200_4.bmp"
+IDB_CELL200_5 BITMAP             "./res/200/cell200_5.bmp"
+IDB_CELL200_6 BITMAP             "./res/200/cell200_6.bmp"
+IDB_CELL200_7 BITMAP             "./res/200/cell200_7.bmp"
+IDB_CELL200_8 BITMAP             "./res/200/cell200_8.bmp"
+IDB_CELL200_UNREVEALED BITMAP    "./res/200/cell200_unrevealed.bmp"
+IDB_CELL200_FLAG BITMAP          "./res/200/cell200_flag.bmp"
+IDB_CELL200_MINE BITMAP          "./res/200/cell200_mine.bmp"
+IDB_CELL200_MINE_RED BITMAP      "./res/200/cell200_mine_red.bmp"
+IDB_CELL200_MINE_WRONG BITMAP    "./res/200/cell200_mine_wrong.bmp"
+IDB_FACE200_PRESSED BITMAP       "./res/200/face200_pressed.bmp"
+IDB_FACE200_COOL BITMAP          "./res/200/face200_cool.bmp"
+IDB_FACE200_DEAD BITMAP          "./res/200/face200_dead.bmp"
+IDB_FACE200_OH BITMAP            "./res/200/face200_oh.bmp"
+IDB_FACE200_NORMAL BITMAP        "./res/200/face200_normal.bmp"
